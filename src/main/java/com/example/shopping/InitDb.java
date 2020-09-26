@@ -13,6 +13,7 @@ import javax.persistence.EntityManager;
     @RequiredArgsConstructor
     public class InitDb {
 
+        // 초기데이터 넣어놓기
         private final InitService initService;
 
         @PostConstruct
